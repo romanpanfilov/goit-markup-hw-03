@@ -27,6 +27,14 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: block;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -69,10 +77,17 @@ address {
 .container-header {
   padding-top: 24px;
   padding-bottom: 24px;
+  display: flex;
+  align-items: center;
 }
 
 .header-nav {
+  display: flex;
+  align-items: center;
+  gap: 76px;
+  flex-grow: 1;
 }
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -93,6 +108,8 @@ address {
 }
 
 .header-menu {
+  display: flex;
+  gap: 40px;
 }
 
 .header-menu-list {
@@ -126,6 +143,9 @@ address {
 }
 
 .header-adress-menu {
+  display: flex;
+  gap: 40px;
+  align-items: center;
 }
 
 .header-adress-list {
@@ -158,7 +178,10 @@ address {
 
 .business-container {
   background-color: #2e2f42;
-  padding: 188px 472px;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  display: flex;
+  align-items: center;
 }
 
 .business-title {
@@ -168,6 +191,13 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  margin-bottom: 48px;
+}
+
+.business-button {
+  display: flex;
+  align-items: center;
 }
 
 .business-btn {
@@ -179,6 +209,10 @@ address {
   color: #fff;
   cursor: pointer;
   background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  padding: 16px 32px;
+  margin: 0 auto;
 }
 
 .business-btn:hover,
@@ -199,9 +233,14 @@ address {
 }
 
 .features-menu {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
 .features-menu-list {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  max-width: 264px;
 }
 
 .features-menu-subtitle {
@@ -210,9 +249,12 @@ address {
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .features-menu-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
@@ -245,13 +287,24 @@ address {
 }
 
 .team-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 }
 
 .team-menu-list {
   background-color: #ffffff;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  width: 264px;
 }
 
 .team-menu-img {
+  margin-bottom: 32px;
 }
 
 .team-menu-subtitle {
@@ -261,6 +314,7 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .team-menu-text {
@@ -269,6 +323,7 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  font-family: "Roboto", sans-serif;
 }
 
 /*------------------ TEAM SECTION -------------------*/
