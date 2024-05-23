@@ -59,7 +59,7 @@ address {
 }
 
 .container {
-  width: 1158px;
+  max-width: 1158px;
   padding-right: 15px;
   padding-left: 15px;
   margin: 0 auto;
