@@ -69,10 +69,10 @@ address {
 
 .header {
   background-color: #fff;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .container-header {
-  border-bottom: 1px solid #e7e9fc;
   display: flex;
   align-items: center;
 }
@@ -107,11 +107,11 @@ address {
 .header-menu {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-menu-list {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-menu-item {
