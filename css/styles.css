@@ -72,8 +72,7 @@ address {
 }
 
 .container-header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
   display: flex;
   align-items: center;
 }
@@ -93,6 +92,7 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .logo-item {
   font-family: "Raleway", sans-serif;
@@ -107,6 +107,8 @@ address {
 .header-menu {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-menu-list {
@@ -191,7 +193,10 @@ address {
   align-items: center;
 }
 
-.business-btn {
+.business-button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -375,10 +380,10 @@ address {
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-container {
-  padding: 100px 0;
 }
 
 .footer-logo {
@@ -390,7 +395,7 @@ address {
   text-transform: uppercase;
   color: #4d5ae5;
   display: inline-block;
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 
 .footer-logo-item {
