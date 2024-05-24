@@ -93,6 +93,8 @@ address {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .logo-item {
   font-family: "Raleway", sans-serif;
@@ -107,11 +109,11 @@ address {
 .header-menu {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-menu-list {
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-menu-item {
